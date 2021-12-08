@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PopUp - Get status</title>
+	<link rel="stylesheet" href="css/00_normalize.css">
+	<link rel="preload" href="fonts/circe-light.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/proximanova-regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="css/00_fonts.css">
+	<link rel="stylesheet" href="css/01_common.css">
+	<link rel="stylesheet" href="css/02_style.css">
+</head>
+
+<body>
+	<section class="popup">
+		<div class="overlay active" id="overlay">
+			<form class="popup__form">
+				<h3 class="reset-title popup__title">Получить статус<span class="popup__title-span">МАГАЗИН</span><span class="popup__closed"></span></h3>
+				<ul class="popup__list">
+					<li class="popup__item">
+						<label for="name" class="modal__label">Название компании</label>
+						<input class="popup__item-input" type="text" value="ООО &quot;ВитаМед&quot;">
+					</li>
+					<li class="popup__item">
+						<label for="name" class="modal__label">Адрес</label>
+						<input class="popup__item-input" type="text" value="ул. Смоленская 19а">
+					</li>
+					<li class="popup__item">
+						<label for="name" class="modal__label">КПП/ИНН</label>
+						<input class="popup__item-input popup__subitem-input" type="text" value="644901001">
+						<input class="popup__item-input popup__subitem-input" type="text" value="6449013711">
+					</li>
+					<li class="popup__item">
+						<label for="name" class="modal__label">Телефон</label>
+						<input class="popup__item-input"  type="tel" value="+76574536511">
+					</li>
+					<li class="popup__item">
+						<label for="name" class="modal__label">Эл. адрес</label>
+						<input class="popup__item-input" type="email" value="shulga.ivan@gmail.com">
+					</li>
+				</ul>
+				<div class="popup__footer">
+					<button class="popup__btn" type="submit">Отправить заявку</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>
